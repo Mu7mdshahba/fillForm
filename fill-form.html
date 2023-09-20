@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Details</title>
+    <link rel="stylesheet" href="fill.css">
+</head>
+
+<body>
+    <div class="firts-page">
+        <div class="Cruds">
+            <div class="inpts">
+                <input type="text" id="Customer" placeholder="Customer Name">
+                <input type="text" id="location" placeholder="Location">
+                <input type="text" id="price" placeholder="Price">
+                <input type="text" id="offer" placeholder="Offer">
+                <input type="text" id="number" placeholder="+02 ### #### ####" value="+02 "><br>
+                <label for="fileInput" id="label"></label>
+                <input type="file" accept="Image/jpeg, Image/png , Image/jpg" id="file-cho">
+            </div>
+            <div class="img">
+                <img src="WhatsApp Image 2023-07-13 at 02.49.49.jpg" alt=""> </div>
+        </div>
+
+        <button  id="submit">Submit</button>
+    </div>
+    <div class="container" id="cont">
+        <!-- <div class="indiv-box">
+            <div class="table">
+                <ul id="main">
+                    <li>${datapro[i].username}</li>
+                    <li>${datapro[i].locat}</li>
+                    <li>${datapro[i].price}</li>
+                    <li>${datapro[i].offer}</li>
+                    <li class="em">${datapro[i].number}</li>
+                    <li><button onclick="delet(${i})" id="delete">delete</button></li>
+                </ul>
+                <ul id="gets">
+                </ul>
+                </table>
+
+            </div>
+            <div class="img-box">
+                <p> This is personal picture</p>
+                <img src="" alt="" name="personal-photo">
+            </div>
+        </div> -->
+
+    </div>
+
+    <div style="height:0px;overflow:hidden">
+        <input type="file" id="fileInput" name="fileInput" />
+    </div>
+    <button type="button" onclick="chooseFile();">
+        choose file</button>
+
+
+
+
+    <script src="fill.js"></script>
+</body>
+
+</html>
